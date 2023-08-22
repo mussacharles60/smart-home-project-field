@@ -110,7 +110,7 @@ void sendData(String data) {
     A6board.print(F(" HTTP/1.1"));
     A6board.print(F("\r\n"));
     A6board.print(F("HOST: "));
-    A6board.print(String(SERVER_HOST));
+    A6board.print(host);
     A6board.print(F("\r\n"));
     A6board.print(F("Content-Type: application/json; charset=utf-8"));
     A6board.print(F("\r\n"));
